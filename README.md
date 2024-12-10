@@ -12,6 +12,7 @@ This repository contains SQL scripts for solving real-world business analytics c
 ## Repository Structure
 The repository is organized as follows:
 
+```
 SQL-Labs-Challenge/
 ├── queries/
 │   ├── monthly_trends.sql         # Monthly trends analysis
@@ -25,4 +26,4 @@ SQL-Labs-Challenge/
 │   ├── weekly_trends.sql          # Weekly trends for key channels
 ├── data/                          # Placeholder for sample data (optional)
 └── README.md                      # Project documentation
-
+```
