@@ -1,33 +1,17 @@
 # SQL Labs Challenge
 
-This repository contains SQL scripts and analysis tackling real-world business challenges, including traffic analysis, campaign performance, and growth trends.
+This repository contains SQL scripts for solving real-world business analytics challenges. The focus is on analyzing traffic sources, campaign performance, conversion rates, and trends across various dimensions.
 
 ## Objectives
-1. Analyze monthly trends for Gsearch sessions and orders.
-2. Evaluate campaign performance by separating brand and nonbrand traffic.
-3. Provide insights into traffic sources and conversion performance.
+1. Analyze monthly trends in sessions, orders, and conversion rates.
+2. Split and evaluate campaign performance (e.g., brand vs. nonbrand).
+3. Assess traffic sources and their contributions to business growth.
+4. Investigate landing page performance and conversion funnels.
+5. Analyze billing page performance and its revenue impact.
 
 ## Repository Structure
-- **queries/**: Contains SQL scripts for different analyses.
-- **data/**: Includes sample data for query replication.
-- **results/**: Summarizes findings and visualizations (if applicable).
+The repository is organized as follows:
 
-## Key Analyses
-1. **Monthly Trends Analysis**
-   - Objective: Track monthly sessions, orders, and conversion rates.
-   - SQL Script: [monthly_trends.sql](queries/monthly_trends.sql)
-
-2. **Campaign-Based Analysis**
-   - Objective: Split traffic into brand and nonbrand campaigns and analyze trends.
-   - SQL Script: [campaign_split.sql](queries/campaign_split.sql)
-
-3. **Traffic Source Analysis**
-   - Objective: Assess sessions, orders, and CVR across different UTM content.
-   - SQL Script: [traffic_analysis.sql](queries/traffic_analysis.sql)
-
-## How to Use
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/SQL-Labs-Challenge.git
-2. Load the sample_data.sql file into your database.
-3. Run the SQL scripts from the queries/ folder.
+```
+SQL-Labs-Challenge/ ├── queries/ │ ├── monthly_trends.sql # Monthly trends analysis │ ├── campaign_split.sql # Campaign-based analysis │ ├── traffic_analysis.sql # Traffic source performance │ ├── conversion_rate.sql # Conversion rate analysis │ ├── lander_analysis.sql # Landing page performance │ ├── funnel_analysis.sql # Conversion funnel analysis │ ├── billing_analysis.sql # Billing page performance │ ├── utm_content_analysis.sql # UTM content performance │ ├── weekly_trends.sql # Weekly trends for key channels ├── data/ # Placeholder for sample data (optional) └── README.md # Project documentation
+```
