@@ -12,6 +12,17 @@ This repository contains SQL scripts for solving real-world business analytics c
 ## Repository Structure
 The repository is organized as follows:
 
-```
-SQL-Labs-Challenge/ ├── queries/ │ ├── monthly_trends.sql # Monthly trends analysis │ ├── campaign_split.sql # Campaign-based analysis │ ├── traffic_analysis.sql # Traffic source performance │ ├── conversion_rate.sql # Conversion rate analysis │ ├── lander_analysis.sql # Landing page performance │ ├── funnel_analysis.sql # Conversion funnel analysis │ ├── billing_analysis.sql # Billing page performance │ ├── utm_content_analysis.sql # UTM content performance │ ├── weekly_trends.sql # Weekly trends for key channels ├── data/ # Placeholder for sample data (optional) └── README.md # Project documentation
-```
+SQL-Labs-Challenge/
+├── queries/
+│   ├── monthly_trends.sql         # Monthly trends analysis
+│   ├── campaign_split.sql         # Campaign-based analysis
+│   ├── traffic_analysis.sql       # Traffic source performance
+│   ├── conversion_rate.sql        # Conversion rate analysis
+│   ├── lander_analysis.sql        # Landing page performance
+│   ├── funnel_analysis.sql        # Conversion funnel analysis
+│   ├── billing_analysis.sql       # Billing page performance
+│   ├── utm_content_analysis.sql   # UTM content performance
+│   ├── weekly_trends.sql          # Weekly trends for key channels
+├── data/                          # Placeholder for sample data (optional)
+└── README.md                      # Project documentation
+
