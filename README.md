@@ -29,4 +29,5 @@ This repository contains SQL scripts and analysis tackling real-world business c
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/SQL-Labs-Challenge.git
-  ```
+2. Load the sample_data.sql file into your database.
+3. Run the SQL scripts from the queries/ folder.
